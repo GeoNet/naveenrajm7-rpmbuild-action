@@ -1,4 +1,4 @@
-FROM ghcr.io/geonet/base-images/rpmbuild-fedora:latest
+FROM --platform=linux/arm64 ghcr.io/geonet/base-images/rpmbuild-fedora:latest
 
 # Copying all contents of rpmbuild repo inside container
 COPY . .
